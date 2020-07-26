@@ -25,18 +25,20 @@ nav a {
     width: absolute;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-color: khaki;
+    
 }
 .divbanner {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-family: 'Anton';
     width: 1100px;
     height: 550px;
     margin-bottom: 200px;
     background-color: pink;
     z-index: 1; 
+    background-image: url(/images/clouds-cloudy-conifers.jpg);
 }
  /* #carouselExampleIndicators {
     display: flex;
@@ -51,6 +53,7 @@ nav a {
     object-fit: cover; 
 }  */
 
+/* Second nav bar section */
 #second-navbar {
     background-color: #dde;
     display: flex;  /* unlocks "flex" property for its children (<a> tags) */
