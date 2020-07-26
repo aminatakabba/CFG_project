@@ -1,15 +1,56 @@
 .flex-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* Top Nav bar  */
 nav a {
     text-decoration: none;
     color: black;
+    font-weight: 700;
 }
-nav {
-    background-color: azure;
+.navbar {
     height: auto;
     margin: 20px;
 }
+
+/* Banner section */
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 550px;
+    width: absolute;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: khaki;
+}
+.divbanner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 1100px;
+    height: 550px;
+    margin-bottom: 200px;
+    background-color: black;
+    /* z-index: 1; */
+}
+#carouselExampleIndicators {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: pink;  */
+
+}
+#carouselExampleIndicators  {
+    width: 100%;
+    height: calc(100vh - 56px - 100px);
+    object-fit: cover; 
+}
+/* .landscape {
+    z-index: 5;
+}   */
