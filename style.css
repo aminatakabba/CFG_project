@@ -35,22 +35,19 @@ nav a {
     width: 1100px;
     height: 550px;
     margin-bottom: 200px;
-    background-color: black;
-    /* z-index: 1; */
+    background-color: pink;
+    z-index: 1; 
 }
-#carouselExampleIndicators {
+ /* #carouselExampleIndicators {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    /* background-color: pink;  */
-
-}
+    background-color: pink; 
+} 
 #carouselExampleIndicators  {
     width: 100%;
     height: calc(100vh - 56px - 100px);
     object-fit: cover; 
-}
-/* .landscape {
-    z-index: 5;
-}   */
+}  */
+
